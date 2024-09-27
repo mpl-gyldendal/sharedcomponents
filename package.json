@@ -1,0 +1,19 @@
+{
+  "name": "sharedcomponents",
+  "version": "1.0.0",
+  "description": "sharedcomponents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpl-gyldendal/sharedcomponents.git"
+  },
+  "author": "Morten Pless",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpl-gyldendal/sharedcomponents/issues"
+  },
+  "homepage": "https://github.com/mpl-gyldendal/sharedcomponents#readme"
+}
