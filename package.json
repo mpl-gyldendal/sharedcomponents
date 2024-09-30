@@ -1,5 +1,5 @@
 {
-  "name": "@gyldendalsolutions/sharedcomponents",
+  "name": "sharedcomponents",
   "version": "1.0.0",
   "type": "module",
   "files": [
@@ -39,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/mpl-gyldendal/sharedcomponents/issues"
   },
-  "homepage": "https://github.com/mpl-gyldendal/sharedcomponents#readme"
+  "homepage": "https://github.com/mpl-gyldendal/sharedcomponents#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
