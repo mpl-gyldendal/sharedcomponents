@@ -1,15 +1,7 @@
 <template>
   <section class="copyright ce-frame mx-auto" :class="[isSearchPage ? 'ce-frame--widescreen' : '']">
     <div class="copyright__content">
-      <p class="text-15 mb-0">
-        <!-- {{
-          $t('labels.generic.copyright', {
-            ISBN13: isbn,
-            PUBLISHER: publisher,
-            YEAR: copyrightYear
-          })
-        }} -->
-      </p>
+      <p class="text-15 mb-0">Copyright © 2024</p>
     </div>
   </section>
 </template>
