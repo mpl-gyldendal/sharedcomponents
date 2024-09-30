@@ -41,6 +41,6 @@
   },
   "homepage": "https://github.com/mpl-gyldendal/sharedcomponents#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@mpl-gyldendal:registry": "https://npm.pkg.github.com"
   }
 }
