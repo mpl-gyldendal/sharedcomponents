@@ -1,5 +1,5 @@
 {
-  "name": "sharedcomponents",
+  "name": "@mpl-gyldendal/sharedcomponents",
   "version": "1.0.0",
   "type": "module",
   "files": [
@@ -17,7 +17,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && vue-tsc --emitDeclarationOnly",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
     "vue": "^3.5.10"
@@ -41,6 +42,6 @@
   },
   "homepage": "https://github.com/mpl-gyldendal/sharedcomponents#readme",
   "publishConfig": {
-    "@mpl-gyldendal:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
