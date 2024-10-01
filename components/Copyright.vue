@@ -1,49 +1,22 @@
 <template>
   <section class="copyright ce-frame mx-auto" :class="[isSearchPage ? 'ce-frame--widescreen' : '']">
     <div class="copyright__content">
-      <p class="text-15 mb-0">Copyright © 2024</p>
+      <p class="text-15 mb-0">{{ copyrightText }}</p>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-
-// import { useT3Store } from '@/stores/typo3';
-// import type { Settings, Metadata, RootPage } from '~/types/pageContract';
-
-// const store = useT3Store();
-// const route = useRoute();
+import { ref, defineProps } from 'vue';
 
 defineProps({
-  isbn: {
+  copyrightText: {
     type: String,
-    required: !true
-  },
-  publisher: {
-    type: String,
-    required: !true
+    required: true
   }
 });
 
 const isSearchPage = ref<boolean>(false);
-
-// const settings: ComputedRef<Settings> = computed(
-//   () => store.initialData?.site.settings
-// );
-// const metadata: ComputedRef<Metadata> = computed(
-//   () => store.initialData?.site.metadata
-// );
-// const rootPage: ComputedRef<RootPage> = computed(
-//   () => store.pageData as unknown as RootPage
-// );
-
-// const copyrightYear: ComputedRef<string> = computed(() => {
-//   if (metadata.value?.copyright_year !== '') {
-//     return metadata.value?.copyright_year;
-//   }
-//   return new Date().getFullYear().toString();
-// });
 
 // watch(
 //   () => route.fullPath,
